@@ -17,6 +17,7 @@ void copiarStringManual(char *destino, const char *origem) {
     destino[i] = '\0';
 }
 
+
 void adicionarMusica(No **head, char *nome) {
     No *novo = (No*) malloc(sizeof(No));
     if (novo == NULL) return;
@@ -44,11 +45,13 @@ void proximaMusica(No **atual) {
     }
 }
 
+
 void musicaAnterior(No **atual) {
     if (*atual != NULL) {
         *atual = (*atual)->ant;
     }
 }
+
 
 void exibirPlaylist(No *head) {
     if (head == NULL) {
@@ -94,7 +97,6 @@ void liberarPlaylist(No **head) {
 int main() {
     No *playlist = NULL;
 
-    printf("--- Atividade 5 ---\n");
     adicionarMusica(&playlist, "Yung Li");
     adicionarMusica(&playlist, "AC/DC");
     adicionarMusica(&playlist, "LemonSoda");
@@ -102,24 +104,36 @@ int main() {
     adicionarMusica(&playlist, "Projeto Sola");
     adicionarMusica(&playlist, "godzilla");
 
+    printf("--- Atividade 5 ---\n");
+    printf("Playlist carregada: ");
     exibirPlaylist(playlist);
-    printf("Total de musicas: %d\n\n", totalMusicas(playlist));
+    printf("Total de musicas: %d\n", totalMusicas(playlist));
+    printf("--------------------------------------\n");
 
+    No *atual = playlist; 
+    int comando = -1;
 
-    No *atual = playlist;
-    printf("Tocando agora: %s\n", atual->musica);
+    while (comando != 0) {
+        printf("\n Tocando agora: %s \n", atual->musica);
+        printf("1 - Proxima musica (->)\n");
+        printf("2 - Musica anterior (<-)\n");
+        printf("0 - Sair do player\n");
+        printf("Escolha uma opcao: ");
+        
+        scanf("%d", &comando);
 
-    proximaMusica(&atual);
-    printf("Cliquei em Proxima: %s\n", atual->musica);
-
-    proximaMusica(&atual);
-    printf("Cliquei em Proxima: %s\n", atual->musica);
-
-    proximaMusica(&atual);
-    printf("Cliquei em Proxima (Loop Circular completo!): %s\n", atual->musica);
-
-    musicaAnterior(&atual);
-    printf("Cliquei em Voltar: %s\n", atual->musica);
+        if (comando == 1) {
+            proximaMusica(&atual);
+            printf(">> Avancando...\n");
+        } else if (comando == 2) {
+            musicaAnterior(&atual);
+            printf("<< Voltando...\n");
+        } else if (comando == 0) {
+            printf("Fechando o player. Ate mais!\n");
+        } else {
+            printf("Opcao invalida!\n");
+        }
+    }
 
     liberarPlaylist(&playlist);
     return 0;
