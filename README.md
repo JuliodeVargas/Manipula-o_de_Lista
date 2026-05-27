@@ -4,7 +4,7 @@
 
 Projeto desenvolvido para a atividade avaliativa da disciplina de Estruturas de Dados, utilizando a linguagem C para implementação de listas encadeadas simples e listas circulares duplamente encadeadas.
 
-Professor: João ("Goku")
+Professor: João ou também conhecido como Goku!!!
 
 Integrantes: Adryan, Bruna, Davi, Julio Natália e Pedro Woruby
 
