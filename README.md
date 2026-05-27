@@ -12,11 +12,7 @@ O projeto tem como objetivo aplicar conceitos fundamentais de estruturas de dado
 
 Foram desenvolvidas funcionalidades como:
 
-Inserção em posição específica;
-Busca por valor;
-Inversão de lista;
-Divisão de listas;
-Playlist circular duplamente encadeada;
+Inserção em posição específica, busca por valor, inversão de lista, divisão de listas, Playlist circular duplamente encadeada.
 
 Tecnologias Utilizadas
 
