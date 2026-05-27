@@ -23,33 +23,21 @@ Tecnologias Utilizadas
 Linguagem C
 GitHub
 
-Conceitos Aplicados
+## Conceitos Aplicados
 
-Ponteiros
+Ponteiros;
+Alocação dinâmica de memória;
+Listas encadeadas;
+Lista circular duplamente encadeada;
+Manipulação de estruturas;
+Organização modular;
+Requisitos Atendidos;
+Gerenciamento correto de memória (malloc/free);
+Código organizado e indentado;
+Sem uso de variáveis globais;
+Implementação sem vetores auxiliares;
 
-Alocação dinâmica de memória
-
-Listas encadeadas
-
-Lista circular duplamente encadeada
-
-Manipulação de estruturas
-
-Organização modular
-
-Requisitos Atendidos
-
-Uso de stdio.h e stdlib.h
-
-Gerenciamento correto de memória (malloc/free)
-
-Código organizado e indentado
-
-Sem uso de variáveis globais
-
-Implementação sem vetores auxiliares
-
-Estrutura do Projeto
+## Estrutura do Projeto
 
  projeto
  ┣ 📄 main.c
