@@ -20,8 +20,7 @@ Playlist circular duplamente encadeada;
 
 Tecnologias Utilizadas
 
-Linguagem C
-GitHub
+Linguagem C e GitHub
 
 ## Conceitos Aplicados
 
