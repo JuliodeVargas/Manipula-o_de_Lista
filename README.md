@@ -21,16 +21,7 @@ Linguagem C e GitHub
 ## Conceitos Aplicados
 
 Ponteiros;
-Alocação dinâmica de memória;
-Listas encadeadas;
-Lista circular duplamente encadeada;
-Manipulação de estruturas;
-Organização modular;
-Requisitos Atendidos;
-Gerenciamento correto de memória (malloc/free);
-Código organizado e indentado;
-Sem uso de variáveis globais;
-Implementação sem vetores auxiliares;
+Alocação dinâmica de memória, listas encadeadas, lista circular duplamente encadeada manipulação de estruturas, organização modular, requisitos Atendidos, gerenciamento correto de memória (malloc/free), código organizado e indentado, sem uso de variáveis globais, implementação sem vetores auxiliares.
 
 ## Estrutura do Projeto
 
