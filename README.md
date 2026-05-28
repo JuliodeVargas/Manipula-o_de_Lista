@@ -23,12 +23,13 @@ Linguagem C e GitHub
 Ponteiros;
 Alocação dinâmica de memória, listas encadeadas, lista circular duplamente encadeada manipulação de estruturas, organização modular, requisitos Atendidos, gerenciamento correto de memória (malloc/free), código organizado e indentado, sem uso de variáveis globais, implementação sem vetores auxiliares.
 
-## Estrutura do Projeto
+Este trabalho foi desenvolvido com a finalidade de reforçar o aprendizado prático sobre estruturas de dados dinâmicas, lógica de programação e manipulação de memória na linguagem C.
 
+## Estrutura do Projeto:
+
+```txt
  projeto
  ┣ 📄 main.c
  ┣ 📄 lista.c
  ┣ 📄 playlist.c
  ┗ 📄 README.md
-
-Este trabalho foi desenvolvido com a finalidade de reforçar o aprendizado prático sobre estruturas de dados dinâmicas, lógica de programação e manipulação de memória na linguagem C.
